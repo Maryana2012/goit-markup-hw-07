@@ -1,0 +1,53 @@
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--background-hero-color);
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--title-text-color);
+}
+
+.address {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-style: normal;
+    color: var(--title-text-color);
+    &:hover,
+    &:focus {
+            color: var(--accent-text-color);
+        }
+}
+
+
+ .contact {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-style: normal;
+    color: var(--footer-text-color);
+
+    &:hover,
+    &:focus {
+            color: var(--accent-text-color);
+        }
+}
+
+
+
+
+
+
+.list-footer {
+    margin-bottom: 9px;
+    
+    &:last-child {
+            margin-bottom: 0;
+        }
+}
+

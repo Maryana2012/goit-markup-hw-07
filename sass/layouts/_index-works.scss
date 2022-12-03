@@ -1,0 +1,23 @@
+.work__list {
+    display: flex;
+    gap: 30px;
+    width: 370px;}
+
+.work__icon {
+    position: relative;}
+
+.work__icon--absolute {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 70px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    background: rgba(47, 48, 58, 0.8);}
